@@ -6,5 +6,6 @@ public class MyWorld extends World {
         
         Character man = new Character();
         addObject(man , 100, 100);
+        
     }
 }
