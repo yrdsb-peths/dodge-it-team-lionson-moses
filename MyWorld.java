@@ -2,9 +2,9 @@ import greenfoot.*;
 
 public class MyWorld extends World {
     public MyWorld() {
-        super(800, 600, 1);
+        super(1000, 1000, 1);
         
-        Character man = new Character();
-        addObject(man , 100, 100);
+        TwinTower object1 = new TwinTower();
+        addObject(object1 , 100, 100);
     }
 }

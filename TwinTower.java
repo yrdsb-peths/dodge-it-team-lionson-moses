@@ -1,6 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class Character extends Actor
+
+public class TwinTower extends Actor
 {
     boolean atTop = true ;
     public void act()
@@ -11,11 +12,11 @@ public class Character extends Actor
         }
         if(atTop)
         {
-            setLocation(100,300);
+            setLocation(100,600);
         }
         else
         {
-            setLocation(100,200);
+            setLocation(100,100);
         }
     }
 }
