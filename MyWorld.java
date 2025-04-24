@@ -5,11 +5,11 @@ public class MyWorld extends World {
         super(1800, 1000, 1);
         
 
-        TwinTower object1 = new TwinTower();
+        Flower object1 = new Flower();
         addObject(object1 , 100, 100);
         
-        Plane plane = new Plane();
-        addObject(plane, 1600, 100);
-
+        Bullet hit = new Bullet();
+        addObject(hit, 1600, 100);
+        
     }
 }

@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
-public class TwinTower extends Actor
+public class Flower extends Actor
 {
     boolean atTop = true ;
     public void act()

@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Plane extends Actor
+public class Bullet extends Actor
 {
     /**
      * Act - do whatever the Fly wants to do. This method is called whenever
@@ -14,12 +14,12 @@ public class Plane extends Actor
      */
     public void act()
     {
-        move(-15);
+        move(-85);
         if(getX()<= 0)
         {
             resetPlane();
         }
-        if(isTouching(TwinTower.class))
+        if(isTouching(Flower.class))
         {
             GameOver dead = new GameOver();
             getWorld().addObject(dead, 850, 500);
