@@ -31,7 +31,7 @@ public class Plane extends Actor
         int num = Greenfoot.getRandomNumber(2);
         if(num == 0)
         {
-            setLocation(1500,200);
+            setLocation(1500,100);
         }
         else
         {
