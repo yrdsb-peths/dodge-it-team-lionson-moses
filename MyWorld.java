@@ -8,7 +8,7 @@ public class MyWorld extends World {
         TwinTower object1 = new TwinTower();
         addObject(object1 , 100, 100);
         
-        FreeBird plane = new FreeBird();
+        Plane plane = new Plane();
         addObject(plane, 1600, 100);
 
     }

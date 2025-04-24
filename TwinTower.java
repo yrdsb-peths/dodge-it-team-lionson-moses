@@ -12,7 +12,7 @@ public class TwinTower extends Actor
         }
         if(atTop)
         {
-            setLocation(100,600);
+            setLocation(100,800);
         }
         else
         {
