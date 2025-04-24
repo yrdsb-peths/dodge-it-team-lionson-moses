@@ -14,6 +14,6 @@ public class FreeBird extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+       move(-15);
     }
 }
