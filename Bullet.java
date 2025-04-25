@@ -14,7 +14,7 @@ public class Bullet extends Actor
      */
     public void act()
     {
-        move(-85);
+        move(-45);
         if(getX()<= 0)
         {
             resetPlane();
@@ -22,7 +22,7 @@ public class Bullet extends Actor
         if(isTouching(Flower.class))
         {
             GameOver dead = new GameOver();
-            getWorld().addObject(dead, 850, 500);
+            getWorld().addObject(dead, 900, 500);
             getWorld().removeObject(this);
         }
     }
